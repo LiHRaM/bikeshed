@@ -4103,7 +4103,7 @@ which we considered a better result because the first track remains sized exactl
       </p>
       <p class="note" role="note">
        <span>Note:</span> 
-       <ins>Blockification still occurs even when the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-flexbox-1/#valdef-display-flex" id="ref-for-valdef-display-flex">flex</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-flexbox-1/#valdef-display-inline-flex" id="ref-for-valdef-display-inline-flex">inline-flex</a> element does not end up generating a <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-container" id="ref-for-flex-container③">flex container</a> box,
+       <ins>Blockification still occurs even when the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-3/#valdef-display-flex" id="ref-for-valdef-display-flex">flex</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-3/#valdef-display-inline-flex" id="ref-for-valdef-display-inline-flex">inline-flex</a> element does not end up generating a <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-container" id="ref-for-flex-container③">flex container</a> box,
 				e.g. when it is <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-3/#replaced-element" id="ref-for-replaced-element①">replaced</a> or in a <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-display-3/#propdef-display" id="ref-for-propdef-display①⑧">display: none</a> subtree.</ins>
       </p>
      </blockquote>
@@ -5210,6 +5210,12 @@ Resolved Value of a Track Listing</a>
 	Grid Item Display</a>
    </ul>
   </aside>
+  <aside class="dfn-panel" data-for="term-for-valdef-display-flex">
+   <a href="https://drafts.csswg.org/css-display-3/#valdef-display-flex">https://drafts.csswg.org/css-display-3/#valdef-display-flex</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-valdef-display-flex"> Clarifications</a>
+   </ul>
+  </aside>
   <aside class="dfn-panel" data-for="term-for-flow-layout">
    <a href="https://drafts.csswg.org/css-display-3/#flow-layout">https://drafts.csswg.org/css-display-3/#flow-layout</a><b>Referenced in:</b>
    <ul>
@@ -5222,6 +5228,12 @@ Establishing Grid Containers: the grid and inline-grid display values</a> <a hre
    <ul>
     <li><a href="#ref-for-inline-formatting-context">5.2. 
 Sizing Grid Containers</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-valdef-display-inline-flex">
+   <a href="https://drafts.csswg.org/css-display-3/#valdef-display-inline-flex">https://drafts.csswg.org/css-display-3/#valdef-display-inline-flex</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-valdef-display-inline-flex"> Clarifications</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-inline-level">
@@ -5260,12 +5272,6 @@ Grid Items</a> <a href="#ref-for-text-run①">(2)</a>
 	Grid Item Sizing</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-valdef-display-flex">
-   <a href="https://drafts.csswg.org/css-flexbox-1/#valdef-display-flex">https://drafts.csswg.org/css-flexbox-1/#valdef-display-flex</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-valdef-display-flex"> Clarifications</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-flex-container">
    <a href="https://drafts.csswg.org/css-flexbox-1/#flex-container">https://drafts.csswg.org/css-flexbox-1/#flex-container</a><b>Referenced in:</b>
    <ul>
@@ -5295,12 +5301,6 @@ Flexible Lengths: the fr unit</a>
    <ul>
     <li><a href="#ref-for-propdef-flex-flow">11.1. 
 Grid Sizing Algorithm</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-valdef-display-inline-flex">
-   <a href="https://drafts.csswg.org/css-flexbox-1/#valdef-display-inline-flex">https://drafts.csswg.org/css-flexbox-1/#valdef-display-inline-flex</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-valdef-display-inline-flex"> Clarifications</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-order">
@@ -6263,8 +6263,10 @@ Interpolation/Combination of repeat()</a>
      <li><span class="dfn-paneled" id="term-for-containing-block" style="color:initial">containing block</span>
      <li><span class="dfn-paneled" id="term-for-propdef-display" style="color:initial">display</span>
      <li><span class="dfn-paneled" id="term-for-establish-an-independent-formatting-context" style="color:initial">establishes an independent formatting context</span>
+     <li><span class="dfn-paneled" id="term-for-valdef-display-flex" style="color:initial">flex</span>
      <li><span class="dfn-paneled" id="term-for-flow-layout" style="color:initial">flow layout</span>
      <li><span class="dfn-paneled" id="term-for-inline-formatting-context" style="color:initial">inline formatting context</span>
+     <li><span class="dfn-paneled" id="term-for-valdef-display-inline-flex" style="color:initial">inline-flex</span>
      <li><span class="dfn-paneled" id="term-for-inline-level" style="color:initial">inline-level</span>
      <li><span class="dfn-paneled" id="term-for-replaced-element" style="color:initial">replaced element</span>
      <li><span class="dfn-paneled" id="term-for-text-nodes" style="color:initial">text node</span>
@@ -6274,11 +6276,9 @@ Interpolation/Combination of repeat()</a>
     <a data-link-type="biblio">[CSS-FLEXBOX-1]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-valdef-align-items-center" style="color:initial">center</span>
-     <li><span class="dfn-paneled" id="term-for-valdef-display-flex" style="color:initial">flex</span>
      <li><span class="dfn-paneled" id="term-for-flex-container" style="color:initial">flex container</span>
      <li><span class="dfn-paneled" id="term-for-flex-item" style="color:initial">flex item</span>
      <li><span class="dfn-paneled" id="term-for-propdef-flex-flow" style="color:initial">flex-flow</span>
-     <li><span class="dfn-paneled" id="term-for-valdef-display-inline-flex" style="color:initial">inline-flex</span>
      <li><span class="dfn-paneled" id="term-for-propdef-order" style="color:initial">order</span>
      <li><span class="dfn-paneled" id="term-for-order-modified-document-order" style="color:initial">order-modified document order</span>
     </ul>
